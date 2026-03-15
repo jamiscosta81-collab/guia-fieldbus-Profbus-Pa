@@ -1,0 +1,43 @@
+{
+  "name": "FieldConnex Diagnóstico",
+  "short_name": "FieldConnex",
+  "description": "Guia de diagnóstico de campo para DM-AM · FF H1 e PROFIBUS PA · Pepperl+Fuchs",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e2428",
+  "theme_color": "#1e2428",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Guia de Diagnóstico",
+      "short_name": "Guia",
+      "description": "Abrir o guia de campo",
+      "url": "/?screen=guia",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Calculadora",
+      "short_name": "Calcular",
+      "description": "Calcular parâmetros do segmento",
+      "url": "/?screen=calc",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
